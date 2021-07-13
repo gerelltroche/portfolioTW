@@ -8,9 +8,9 @@ const Clouds = () => {
 
     return (
         <div className={'absolute z-10 overflow-hidden h-screen w-screen'}>
-            <div className={x1}></div>
-            <div className={x2}></div>
-            <div className={x3}></div>
+            <div className={x1} />
+            <div className={x2} />
+            <div className={x3} />
         </div>
     )
 }

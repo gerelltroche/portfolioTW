@@ -7,7 +7,7 @@ import Contact from "./Components/Contact/Contact";
 function App() {
 
   return (
-    <div className={''}>
+    <div className={'overflow-x-hidden w-screen'}>
         <Hero />
         <Nav />
         <About />
