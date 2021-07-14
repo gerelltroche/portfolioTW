@@ -5,7 +5,8 @@ const Portfolio = props => {
     //flex flex-col bg-yellow-50 pb-12 h-5/6 justify-start
 
     return (
-        <div className={'flex flex-col bg-gray-700 pb-12 h-5/6 justify-start text-white'}>
+        <div className={'flex flex-col bg-gray-700 pb-12 h-5/6 justify-start text-white'}
+        id={'Portfolio'}>
             <div className={'place-self-center'}>
                 <div className={'text-6xl mt-12 mb-0 select-none'}>Portfolio</div>
                 <hr className={'self-center w-8 mb-10 border border-yellow-50 bg-yellow-50'}/>

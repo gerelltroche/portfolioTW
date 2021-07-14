@@ -1,7 +1,8 @@
 import React from "react";
 
 const Contact = () => (
-    <div className={'flex flex-col bg-yellow-50 pb-12 h-5/6 justify-start'}>
+    <div className={'flex flex-col bg-yellow-50 pb-12 h-5/6 justify-start'}
+    id={'Contact'}>
         <div className={'self-center'}>
             <div className={'text-6xl mt-12 mb-0 self-center select-none text-gray-700'}>Contact Me</div>
             <hr className={'self-center w-10 mb-10 border border-gray-700 bg-gray-700'}/>
